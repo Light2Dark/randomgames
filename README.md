@@ -21,8 +21,8 @@ To install in your phone:
 1. I need a Mac to fully install this on Android so maybe in the future!
 
 ## Design
-
-
+![image](https://user-images.githubusercontent.com/19585239/129547817-13add230-a9c9-4f01-be8a-0fddf1311100.png)
+![image](https://user-images.githubusercontent.com/19585239/129547859-df116bdd-3553-4cff-b46a-5568528fcdb9.png)
 
 ## Contributions
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
