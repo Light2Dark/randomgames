@@ -25,7 +25,7 @@ public class paddle : MonoBehaviour
         singleplayer = false;
 
         paddleTransform = this.GetComponent<Transform>();
-        movementSpeed = 5;
+        movementSpeed = 30;
     }
 
     // Update is called once per frame
@@ -38,22 +38,33 @@ public class paddle : MonoBehaviour
         Move();
     }
 
-    void Move() {
-        for (int i = 0; i < Input.touchCount; i++) {
-            Touch touch = Input.GetTouch(i);
-            Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
-
-            RaycastHit2D hitObject = Physics2D.Raycast(touchPosition, Vector2.down);
-            Debug.Log("hitobject coldider: " + hitObject.collider);
-        }
-    }
-
     public void setSingleplayer(bool singleplayer) {
         this.singleplayer = singleplayer;
     }
 
     public Vector3 getCenterBoard() {
         return gameboardCenter;
+    }
+
+    private void Move() {
+        for (int i = 0; i < Input.touchCount; i++) {
+            Touch touch = Input.GetTouch(i);
+            Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
+
+            Vector2 touchPos = new Vector2(touchPosition.x, touchPosition.y);
+            Collider2D objectCol = Physics2D.OverlapPoint(touchPos);
+            touchPos.y = this.transform.position.y; // setting this to original so that object does not move verticall
+
+            if (objectCol != null) {
+                if (objectCol.tag == "Player1" && this.gameObject.tag == "Player1" && touch.phase == TouchPhase.Moved) {
+                    this.transform.position = Vector2.Lerp(this.transform.position, touchPos, Time.fixedDeltaTime * movementSpeed);
+
+                } else if (objectCol.tag == "Player2" && !singleplayer && this.gameObject.tag == "Player2" && touch.phase == TouchPhase.Moved) {
+                    this.transform.position = Vector2.Lerp(this.transform.position, touchPos, Time.fixedDeltaTime * movementSpeed);
+                }
+            }
+            
+        }
     }
 }
 
