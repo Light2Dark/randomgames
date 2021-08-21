@@ -36,8 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Pong\paddle.cs" />
      <Compile Include="Assets\Scripts\Pong\ball.cs" />
+     <Compile Include="Assets\Scripts\Pong\paddle.cs" />
+     <Compile Include="Assets\Scripts\Pong\gameboard.cs" />
+     <Compile Include="Assets\Scripts\Pong\paddleConstraint.cs" />
+     <Compile Include="Assets\Scripts\Pong\edgePosition.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
