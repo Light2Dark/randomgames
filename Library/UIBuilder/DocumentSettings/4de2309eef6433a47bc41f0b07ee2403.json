@@ -1,0 +1,30 @@
+{
+    "UxmlGuid": "4de2309eef6433a47bc41f0b07ee2403",
+    "UxmlPath": "Assets/pong/UIDoc.uxml",
+    "CanvasX": 0,
+    "CanvasY": 0,
+    "CanvasWidth": 1080,
+    "CanvasHeight": 1920,
+    "MatchGameView": false,
+    "ZoomScale": 0.25,
+    "PanOffset": {
+        "x": 161.43331909179688,
+        "y": 192.066650390625
+    },
+    "ColorModeBackgroundOpacity": 1.0,
+    "ImageModeCanvasBackgroundOpacity": 1.0,
+    "CameraModeCanvasBackgroundOpacity": 1.0,
+    "EnableCanvasBackground": true,
+    "CanvasBackgroundMode": 2,
+    "CanvasBackgroundColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 255.0
+    },
+    "CanvasBackgroundImage": {
+        "instanceID": 0
+    },
+    "CanvasBackgroundImageScaleMode": 1,
+    "CanvasBackgroundCameraName": "Main Camera"
+}

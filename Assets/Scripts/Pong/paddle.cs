@@ -8,7 +8,6 @@ public class Paddle : MonoBehaviour
 
     private float leftEdge, rightEdge;
     private Vector3 gameboardCenter;
-
     private Transform paddleTransform;
     private float movementSpeed;
 
