@@ -11,22 +11,36 @@
         "m_CodePreviewVisible": true,
         "m_OpenUXMLFiles": [
             {
-                "m_OpenUSSFiles": [],
+                "m_OpenUSSFiles": [
+                    {
+                        "m_StyleSheet": {
+                            "fileID": 7433441132597879392,
+                            "guid": "f9e57fd1acf6fcb4a9dc636cb39cb222",
+                            "type": 3
+                        },
+                        "m_BackupStyleSheet": {
+                            "instanceID": 0
+                        },
+                        "m_OldPath": "Assets/Scripts/menu.uss"
+                    }
+                ],
                 "m_VisualTreeAssetBackup": {
                     "instanceID": 0
                 },
-                "m_OpenendVisualTreeAssetOldPath": "Assets/pong/UIDoc.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/MenuScreenUI.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "4de2309eef6433a47bc41f0b07ee2403",
+                    "guid": "bca9ac75c8d196a48b58383f3a57bcc4",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
-                    "instanceID": 0
+                    "fileID": 7433441132597879392,
+                    "guid": "f9e57fd1acf6fcb4a9dc636cb39cb222",
+                    "type": 3
                 },
                 "m_Settings": {
-                    "UxmlGuid": "4de2309eef6433a47bc41f0b07ee2403",
-                    "UxmlPath": "Assets/pong/UIDoc.uxml",
+                    "UxmlGuid": "bca9ac75c8d196a48b58383f3a57bcc4",
+                    "UxmlPath": "Assets/MenuScreenUI.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
                     "CanvasWidth": 1080,
@@ -34,13 +48,13 @@
                     "MatchGameView": false,
                     "ZoomScale": 0.25,
                     "PanOffset": {
-                        "x": 161.43331909179688,
-                        "y": 192.066650390625
+                        "x": 681.9165649414063,
+                        "y": 78.53338623046875
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,
                     "CameraModeCanvasBackgroundOpacity": 1.0,
-                    "EnableCanvasBackground": true,
+                    "EnableCanvasBackground": false,
                     "CanvasBackgroundMode": 2,
                     "CanvasBackgroundColor": {
                         "r": 0.0,

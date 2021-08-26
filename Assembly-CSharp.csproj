@@ -37,11 +37,14 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Pong\Ball.cs" />
-     <Compile Include="Assets\Scripts\Pong\PaddleConstraint.cs" />
+     <Compile Include="Assets\Scripts\Pong\Score.cs" />
      <Compile Include="Assets\Scripts\Pong\Paddle.cs" />
      <Compile Include="Assets\Scripts\Pong\Gameboard.cs" />
-     <Compile Include="Assets\Scripts\Pong\Score.cs" />
+     <Compile Include="Assets\Scripts\Pong\PaddleConstraint.cs" />
      <Compile Include="Assets\Scripts\Pong\Setting.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\Pong\PongMenu.cs" />
+     <Compile Include="Assets\Scripts\Soundtrack.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -56,9 +59,11 @@
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Scripts\menu.uss" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\MenuScreenUI.uxml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets\pong\font\OFL.txt" />
+     <None Include="Assets\font\OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
@@ -700,6 +705,12 @@
     <Reference Include="UnityEngine.UI">
         <HintPath>C:/Users/User/Downloads/creation/unity/Pong/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+        <HintPath>C:/Users/User/Downloads/creation/unity/Pong/Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsInputSystemModule">
+        <HintPath>C:/Users/User/Downloads/creation/unity/Pong/Library/ScriptAssemblies/UnityEngine.UIElementsInputSystemModule.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Notifications.iOS">
         <HintPath>C:/Users/User/Downloads/creation/unity/Pong/Library/ScriptAssemblies/Unity.Notifications.iOS.dll</HintPath>
     </Reference>
@@ -708,6 +719,9 @@
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
         <HintPath>C:/Users/User/Downloads/creation/unity/Pong/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+        <HintPath>C:/Users/User/Downloads/creation/unity/Pong/Library/ScriptAssemblies/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
         <HintPath>C:/Users/User/Downloads/creation/unity/Pong/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
@@ -723,6 +737,9 @@
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:/Users/User/Downloads/creation/unity/Pong/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+        <HintPath>C:/Users/User/Downloads/creation/unity/Pong/Library/ScriptAssemblies/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VectorGraphics.Editor">
         <HintPath>C:/Users/User/Downloads/creation/unity/Pong/Library/ScriptAssemblies/Unity.VectorGraphics.Editor.dll</HintPath>
@@ -744,18 +761,6 @@
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
         <HintPath>C:/Users/User/Downloads/creation/unity/Pong/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UIBuilderModule">
-        <HintPath>C:/Users/User/Downloads/creation/unity/Pong/Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TextCoreTextEngineModule">
-        <HintPath>C:/Users/User/Downloads/creation/unity/Pong/Library/ScriptAssemblies/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.TextCoreTextEngineModule">
-        <HintPath>C:/Users/User/Downloads/creation/unity/Pong/Library/ScriptAssemblies/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIElementsInputSystemModule">
-        <HintPath>C:/Users/User/Downloads/creation/unity/Pong/Library/ScriptAssemblies/UnityEngine.UIElementsInputSystemModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
