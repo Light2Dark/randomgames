@@ -10,7 +10,7 @@ To install in your phone:
 (**Currently unavailable on Playstore & Appstore so this is to install manually**)
 
 **Android:** 
-1. Go to the Builds folder
+1. Download the PogGamesv1.apk file.
 2. Transfer the PogGamesv1.apk file to your phone.
 3. Run the app in your phone.
 4. Enable installation of unknown apps in your phone (if needed).
