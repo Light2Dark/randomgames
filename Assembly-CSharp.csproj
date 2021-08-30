@@ -36,15 +36,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Pong\Ball.cs" />
+     <Compile Include="Assets\Scripts\Pong\ball.cs" />
      <Compile Include="Assets\Scripts\Pong\Score.cs" />
-     <Compile Include="Assets\Scripts\Pong\Paddle.cs" />
+     <Compile Include="Assets\Scripts\Pong\paddle.cs" />
      <Compile Include="Assets\Scripts\Pong\Gameboard.cs" />
-     <Compile Include="Assets\Scripts\Pong\PaddleConstraint.cs" />
-     <Compile Include="Assets\Scripts\Pong\Setting.cs" />
-     <Compile Include="Assets\Scripts\Menu.cs" />
-     <Compile Include="Assets\Scripts\Pong\PongMenu.cs" />
      <Compile Include="Assets\Scripts\Soundtrack.cs" />
+     <Compile Include="Assets\Scripts\Pong\PongMenu.cs" />
+     <Compile Include="Assets\Scripts\Pong\PaddleConstraint.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\Pong\Setting.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
