@@ -1,6 +1,9 @@
 # Random Games App
 
-A Unity-made mobile app to implement some learnt skills and to laugh at the lack of it.
+A Unity-made mobile app to implement some learnt skills and to laugh at the lack of it. OKAY, THE MAIN MENU UI IS COMPLETELY SCREWED, NEVER GONNA USE UIDOCUMENT AGAIN. Its not worth fixing this over a Pong game, once I implement the Math game...maybe. SO, 
+
+**UNDER DEVELOPMENT:**
+MATH GAME (Based on the Countdown game where you choose 5 numbers and calculate up to a sum)
 
 ## Installation
 
